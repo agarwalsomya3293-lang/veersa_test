@@ -1,9 +1,3 @@
-from flask import Flask, jsonify
-
-app = Flask(__name__)
-
-@app.route("////api/test")
-def test_api():
-    return jsonify({"status": "API working"})
-
-app.run()
+def diff(a,b):
+    return a+b
+print(diff(7,6))
