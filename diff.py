@@ -1,3 +1,3 @@
-def diff(a,b):
-    return a+b
-print(diff(7,6))
+def diff(a, b):
+    return a - b
+print(diff(7, 6))
